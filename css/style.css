@@ -62,8 +62,12 @@ h1{
     font-size: 2rem;
     margin: 0 2rem;
 }
-.first-nav a::after{
-    content: '';
+.search::after{
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    content: '\f002';
+    margin-left: 0.5rem;
+
 }
 
 /* MAIN */
